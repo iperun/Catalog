@@ -1,0 +1,21 @@
+{% extends "main.html" %} {% block content %}
+
+<div id="welcome" class="row text-center welcome">
+  <h1>Welcome to the Perun Catalog</h1>
+</div>
+<div class="row">
+  <img src={{url_for( 'static', filename="scott-webb-97651-unsplash.jpg" )}} class="img-responsive covpic" height="460" width="620">
+</div>
+<hr>
+<div class="row text-center">
+  <div class="col-md-4 col-md-offset-4">
+    <p class="lead"> Where You Can Search, Create, and Manage Clothing Categories and Items!</p>
+    <a href="/catalog">
+                <button class="btn btn-default" role="button">
+                    Let's Get Started &raquo;
+                </button>
+            </a>
+  </div>
+</div>
+
+{% endblock %}

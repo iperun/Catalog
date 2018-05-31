@@ -1,0 +1,23 @@
+{% extends "main.html" %} {% block content %}
+
+<div class="jumbotron aboutjumbo">
+  <h1>About</h1>
+  <div class="row arrow">
+    <div class="col-md-3">
+      <img src="/static/hello-i-m-nik-281498-unsplash.jpg" class="img-responsive about" height="180" width="180">
+    </div>
+    <div class="col-md-9 abouttext">
+      <p>
+        This Catalog Web Application provides a list of items within a variety of categories and integrate third party user registration and authentication. Authenticated users should have the ability to post, edit, and delete their own items.
+      </p>
+      <p>
+        This application was built with HTML5, CSS, Bootstrap, Flask, SQLAlchemy, Google and Facebook Oauth2 & APIs.</p>
+      <p>
+        Source code can be found here:
+        <a href="https://github.com/iperun/UdacityCatalog">Catalog</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
