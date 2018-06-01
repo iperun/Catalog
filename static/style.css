@@ -105,6 +105,11 @@ p {
   font-size: 20px;
 }
 
+.avatar {
+  padding-bottom: 10px;
+  display: initial;
+}
+
 /* button styling */
 
 .btn {
