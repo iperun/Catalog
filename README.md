@@ -9,7 +9,7 @@ This Catalog Application provides a list of items within a variety of categories
 
 ### To get started
 
-- Visit the site [HERE](URL LINK)
+- Visit the site [HERE](https://catalogperun.herokuapp.com/)
 
 - OR
 
