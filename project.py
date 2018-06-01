@@ -559,7 +559,7 @@ def editItem(category_name, item_name):
         return redirect(url_for('showItem', category_name=editingItemCategory.name, item_name=editingItem.name))
     else:
         return render_template(
-            'edititem.html', categories=categories, editingItemCategory=editingItemCategory, item=editingItem)
+            'editItem.html', categories=categories, editingItemCategory=editingItemCategory, item=editingItem)
 
 
 # Delete an item
