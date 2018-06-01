@@ -46,9 +46,9 @@ class Item(Base):
 
     name = Column(String(80), nullable=False)
     id = Column(Integer, primary_key=True)
-    description = Column(String(250))
+    description = Column(String(250), nullable=False)
     image = Column(String)
-    price = Column(String(8))
+    price = Column(String(80), nullable=False)
     createdDate = Column(DateTime, default=datetime.datetime.utcnow, nullable=False)
     category_id = Column(Integer, ForeignKey('category.id'))
     category = relationship(Category)
@@ -67,5 +67,5 @@ class Item(Base):
         }
 
 
-engine = create_engine('sqlite:///catalog.db')
+engine = create_engine('postgres://nxdtjtqhnjptxc:29fe22ceeddffbac6344938e9fbf898330e6bc81a980545ae66d4f579eed4aed@ec2-54-235-206-118.compute-1.amazonaws.com:5432/d8i6lrqg9cfv4s')
 Base.metadata.create_all(engine)
