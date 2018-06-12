@@ -5,6 +5,8 @@
 
 This Catalog Application provides a list of items within a variety of categories and integrates third party user registration and authentication. Authenticated users should have the ability to post, edit, and delete their own items.
 
+The project is hosted on heroku with data bases stored on heroku postrgres.
+
 ![Catalog](https://i.gyazo.com/32437e8cd4e189d5420990ecabb2700f.gif "Catalog")
 
 ### To get started
@@ -28,6 +30,7 @@ This Catalog Application provides a list of items within a variety of categories
 - [SQLAlchemy](https://www.sqlalchemy.org/)
 - [Google OAuth 2.0](https://developers.google.com)
 - [Facebook Login](https://developers.facebook.com)
+- [Heroku](https://heroku.com)
 
 ### Reference Materials
 
