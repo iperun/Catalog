@@ -3,12 +3,6 @@
   padding: 0;
 }
 
-html, body {
-  height: 100%;
-  overflow-x: hidden;
-  /* Prevent scroll on narrow devices */
-}
-
 body {
   background-color: rgba(0, 0, 0, 0.08);
 }
