@@ -1,28 +1,33 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
 }
 
 body {
-  background-color: rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  color: #555;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
 }
 
 .base {
-  padding-top: 5em;
+  padding-top: 3.1em
 }
 
 .addingc {
-  text-transform: capitalize;
-}
-
-/* Cover Page Styling */
-
-welcome {
-  padding-top: 1em;
+  text-transform: capitalize
 }
 
 h1 {
-  font-family: "Helvetica Neue Light", Roboto, Helvetica, Arial, sans-serif;
   color: #1C2127;
   line-height: 60px;
   font-weight: 700;
@@ -35,85 +40,79 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   padding-top: 16px;
-  padding-bottom: 16px;
+  padding-bottom: 16px
 }
 
 hr {
-  border-top: 1px solid #9d9d9d;
+  border-top: 1px solid #9d9d9d
 }
 
 footer {
   padding-top: 2em;
-  text-align: center;
+  text-align: center
 }
 
 p {
   font-size: 12px;
   color: #0a0a0f;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 400
 }
 
 .navbar-inverse {
   background-color: #1C2127;
-  border-color: #A3A5A7;
+  border-color: #A3A5A7
 }
-
-/* About Page styling */
 
 .about {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 50%;
+  border-radius: 50%
 }
 
 .aboutjumbo {
-  text-align: center;
+  text-align: center
 }
 
 .abouttext {
   text-align: left;
-  padding-top: 1em;
+  padding-top: 1em
 }
 
 .arrow {
-  padding-top: 1.5em;
+  padding-top: 1.5em
 }
 
-/* Contact page styling */
-
 .linkedin {
-  margin-bottom: 10px;
+  margin-bottom: 10px
 }
 
 .social {
   padding-top: 5em;
-  text-align: center;
+  text-align: center
 }
 
 #email {
-  font-size: 20px;
+  font-size: 20px
 }
 
 .avatar {
   padding-bottom: 10px;
-  display: initial;
+  display: initial
 }
-
-/* button styling */
 
 .btn {
   padding: 20px;
   margin: 0;
   border-color: #0d1a26;
-  border-width: 2px;
+  border-width: 2px
 }
 
 .btn:hover {
   border-color: #0d1a26;
   color: #333;
-  background-color: #d3d3d39c;
+  background-color: #d3d3d39c
 }
 
 button {
@@ -122,103 +121,103 @@ button {
   margin: 0;
   border-color: #0d1a26;
   border-width: 2px;
-  background-color: white;
+  background-color: white
 }
 
 button:hover {
   border-color: #0d1a26;
-  background-color: #d3d3d39c;
+  background-color: #d3d3d39c
 }
 
 .glyphicon-trash:hover {
-  color: red;
+  color: red
 }
 
 .glyphicon-remove:hover {
-  color: #333;
+  color: #333
 }
 
 .jumbotron {
-  background-color: rgba(255, 255, 255, 0.44);
+  background-color: rgba(255, 255, 255, .44)
 }
 
 .list-group {
   text-transform: capitalize;
   font-size: 18px;
-  text-align: center;
+  text-align: center
 }
 
 .text-center {
-  text-transform: capitalize;
+  text-transform: capitalize
 }
 
 .lead {
   font-size: 20px;
-  text-align: center;
+  text-align: center
 }
 
 .addcategory {
   text-align: center;
   padding-bottom: 3em;
-  padding-top: 10px;
+  padding-top: 10px
 }
 
 .latestitems {
-  text-align: center;
+  text-align: center
 }
 
 .itemb {
-  padding: 10px;
+  padding: 10px
 }
 
 .text-right {
-  padding-top: 14px;
+  padding-top: 14px
 }
 
 .flash {
+  padding-top: 10px;
   background-color: rgba(0, 0, 0, .1);
-  text-align: center;
+  text-align: center
 }
 
 .flash li {
   list-style-type: none;
-  text-align: center;
+  text-align: center
 }
 
 .cata {
   font-size: 30px;
+  padding-top: 1.1em
 }
 
-/* home styling & media*/
-
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width:720px) {
   .thumbnail {
-    height: 300px;
+    height: 300px
   }
   .pubcol {
-    padding-top: 10px;
+    padding-top: 10px
   }
   .thumbnail>img {
-    height: 162.5px;
+    height: 162.5px
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width:1200px) {
   .thumbnail {
-    height: 340px;
+    height: 340px
   }
   .thumbnail>img {
     height: 200px;
-    width: 222.5px;
+    width: 222.5px
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width:992px) {
   .text-right {
     padding: 14px;
-    text-align: center;
+    text-align: center
   }
   .addingc {
-    text-align: center;
+    text-align: center
   }
 }
