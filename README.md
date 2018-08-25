@@ -7,7 +7,7 @@ This Catalog Application provides a list of items within a variety of categories
 
 The project is hosted on heroku with data bases stored on heroku postrgres.
 
-![Catalog](https://i.gyazo.com/32437e8cd4e189d5420990ecabb2700f.gif "Catalog")
+![Catalog](https://i.gyazo.com/e0688dea6f153c8ed92f1653f6391498.gif "Catalog")
 
 ### To get started
 
