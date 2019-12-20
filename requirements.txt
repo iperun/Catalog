@@ -34,6 +34,6 @@ uritemplate==3.0.0
 urllib3==1.22
 virtualenv==16.0.0
 virtualenv-clone==0.3.0
-waitress==1.1.0
+waitress==1.4.0
 Werkzeug==0.8.3
 wrapt==1.10.11
